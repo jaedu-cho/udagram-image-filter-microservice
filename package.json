@@ -2,7 +2,7 @@
   "name": "udacity-c2-image-filter",
   "version": "1.0.0",
   "description": "",
-  "main": "src/index.js",
+  "main": "./www/server.js",
   "engines": { "node": "12.22.7"},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
