@@ -9,7 +9,7 @@
     "clean": "rimraf www/ || true",
     "build": "npm run clean && tsc && cp package.json www/package.json && mkdir www/tmp/ && cd www && zip -r Archive.zip . && cd ..",
     "dev": "ts-node-dev ./src/server.ts",
-    "start": "node ./www/server.js"  
+    "start": "node ./server.js"  
   },
   "repository": {
     "type": "git",
