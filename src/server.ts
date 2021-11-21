@@ -37,7 +37,7 @@ import {filterImageFromURL, deleteLocalFiles} from './util/util';
     // console.log(image_url)
     // 1. validate the image_url query
     if ( !image_url ) {
-      return res.status(422).send('url is required.');
+      return res.status(400).send('url is required.');
     }
     // 2. call filterImageFromURL(image_url) to filter the image
     let filteredpath = await filterImageFromURL(image_url);
